@@ -2,7 +2,7 @@ name: Robô de Build Maven
 
 on:
   push:
-    branches: [ "principal" ] # Ativa o robô automaticamente no push para o Recom2
+    branches: [ "principal","master","main" ] # Ativa o robô automaticamente no push para o Recom2
 
 jobs:
   build-e-mcp:
